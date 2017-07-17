@@ -1,9 +1,6 @@
 body {
   margin: 0;
-}
-
-#site {
-  background-color: rgb(107, 107, 107);
+  background-color: #26262a;
 }
 
 #headerBackground {
@@ -130,4 +127,63 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #fff;
+}
+
+.content {
+  background-color: #FFF;
+}
+
+#footer {
+  background-color: #26262a;
+  height: auto;
+  max-height: 600px;
+  width: auto;
+  max-width: 100%;
+
+}
+
+.footer-inner {
+  max-width: 1600px;
+  width: 90%;
+  box-sizing: border-box;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+  margin: auto;
+}
+
+#footer-nav {
+  display: inline-block;
+}
+
+#footer-nav ul {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer-nav li {
+  display: inline-block;
+  margin: 42.5px 15px;
+  list-style-type: none;
+  position: relative;
+  width: 20%;
+}
+
+#footer-nav a {
+    display: inline-block;
+
+    text-transform: uppercase;
+    font: 13px 'Roboto', sans-serif;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.centre-text {
+  text-align: center;
+  font: 12px 'Roboto', sans-serif;
+  color: rgba(255,255,255,.4);
 }
