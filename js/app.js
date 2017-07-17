@@ -3,27 +3,7 @@ angular.module('jobsView', []).controller('jobController', function ($scope) {
     {
       'name': 'STUDI/O',
       'link': 'https://appsbystudio.co.uk',
-      'desc': 'This is a compnay that makes android apps and other things. This is a compnay that makes android apps and other things. This is a compnay that makes android apps and other things. This is a compnay that makes android apps and other things. This is a compnay that makes android apps and other things.  This is a compnay that makes android apps and other things.'
-    },
-    {
-      'name': 'company 2',
-      'link': 'https://google.com',
-      'desc': 'This is a template for layout purposes'
-    },
-    {
-      'name': 'company 3',
-      'link': 'https://google.com',
-      'desc': 'This is a template for layout purposes'
-    },
-    {
-      'name': 'company 4',
-      'link': 'https://google.com',
-      'desc': 'This is a template for layout purposes'
-    },
-    {
-      'name': 'company 5',
-      'link': 'https://google.com',
-      'desc': 'This is a template for layout purposes'
+      'desc': 'STUDI/O is a small web-based software development company founded in 2016 by Zac Hadjineophytou and Joshua Tyler-Jones. Its current aim is to develop user friendly android apps that make every day tasks easier.'
     }
   ];
 });

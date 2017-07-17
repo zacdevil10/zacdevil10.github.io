@@ -1,0 +1,34 @@
+#heading {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 74px;
+  padding-right: 74px;
+  text-align: center;
+}
+
+#heading h1 {
+  font: 34px 'Roboto', sans-serif;
+  color: #4a4a4a;
+}
+
+.three-images {
+  text-align: center;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.three-images div {
+  display: inline-table;
+  text-align: center;
+  max-width: 30%;
+  padding: 7px;
+}
+
+.three-images div img {
+  width: 148px;
+}
+
+.three-images div h4 {
+  font: 13px 'Roboto', sans-serif;
+  color: rgba(26,26,26,.6);
+}
