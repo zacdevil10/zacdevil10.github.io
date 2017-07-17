@@ -115,22 +115,104 @@ body {
 
 .infoPanel h1 {
   display: block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    letter-spacing: 0px;
-    text-transform: none;
-    font-size: 68px;
-    line-height: 1em;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 700;
-    font-style: normal;
-    color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-size: 68px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
 }
 
 .content {
   background-color: #FFF;
+  padding: 96px 32px;
+}
+
+.technologies {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.experience {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+#column-1 {
+  display: inline-block;
+  width: 33.3333%;
+  float: left;
+}
+
+#column-1 h2 {
+  font: 22px 'Roboto', sans-serif;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  padding-top: 17px;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 2px;
+}
+
+#column-1 h2:first-child {
+  font: 22px 'Roboto', sans-serif;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 2px;
+  padding-top: 0px;
+}
+
+#column-2 {
+  display: inline-block;
+  width: 66.6667%
+}
+
+#column-2 h3 {
+  font: 16px 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+}
+
+#column-2 h3 a {
+  font: 16px 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+#column-2 ul {
+  font-family: 'Roboto', sans-serif;
+}
+
+#column-2 li {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(26,26,26,.6);
+  line-height: 1.8;
+}
+
+#jobView {
+  padding: 17px;
+}
+
+#separator hr {
+  margin: 32px 0;
+  border-width: 0;
+  border-style: none;
+  color: rgba(26, 26, 26, .15);
+  background-color: rgba(26,26,26,.15);
+  height: 1px;
 }
 
 #footer {

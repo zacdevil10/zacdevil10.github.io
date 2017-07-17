@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Zac Hadjineophytou</title>
+  <title>About</title>
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
 
@@ -15,7 +15,7 @@
 
 <body>
 
-<div id="site">
+<div id="site" ng-app="jobsView">
   <div id="headerBackground">
     <div id="header">
       <div class="header-inner">
@@ -48,7 +48,42 @@
   </div>
 
   <div class="content">
-    <a>We can place some content here</a>
+    <div class="technologies">
+      <div id="column-1">
+        <h2>Technologies</h2>
+      </div>
+      <div id="column-2">
+        <h3>Experience with</h3>
+        <ul>
+          <li>Android Studio</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+          <li>GIT</li>
+          <li>MySQL</li>
+          <li>Apache</li>
+        </ul>
+      </div>
+
+      <div id="separator">
+        <hr>
+      </div>
+
+    </div>
+
+    <div class="experience">
+      <div id="column-1">
+        <h2>Experience</h2>
+      </div>
+      <div id="column-2" ng-controller="jobController" >
+        <div id="jobView" ng-repeat="job in jobs">
+          <h3><a href="{{job.link}}">{{job.name}}</a></h3>
+          <p>{{job.desc}}</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="footer">
