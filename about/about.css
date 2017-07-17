@@ -1,0 +1,76 @@
+.technologies {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.experience {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+#column-1 {
+  display: inline-block;
+  width: 33.3333%;
+  float: left;
+}
+
+#column-1 h2 {
+  font: 22px 'Roboto', sans-serif;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  padding-top: 17px;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 2px;
+}
+
+#column-2 {
+  display: inline-block;
+  width: 66.6667%
+}
+
+#column-2 h3 {
+  font: 16px 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+}
+
+#column-2 h3 a {
+  font: 16px 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(74,74,74,.2);
+}
+
+#column-2 ul {
+  font-family: 'Roboto', sans-serif;
+}
+
+#column-2 li {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(26,26,26,.6);
+  line-height: 1.8;
+}
+
+#jobView {
+  padding: 17px;
+}
+
+#jobView p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(26,26,26,.6);
+}
+
+#separator hr {
+  margin: 32px 0;
+  border-width: 0;
+  border-style: none;
+  color: rgba(26, 26, 26, .15);
+  background-color: rgba(26,26,26,.15);
+  height: 1px;
+}
