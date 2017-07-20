@@ -6,3 +6,21 @@
   max-width: 100%;
   background-size: cover;
 }
+
+.formWrapper {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+#name {
+  display: inline-block;
+  width: 48%;
+}
+
+#name label{
+  font: 13px 'Roboto', sans-serif;
+}
+
+#name input{
+  width: 100%;
+}
