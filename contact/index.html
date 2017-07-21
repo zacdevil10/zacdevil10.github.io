@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Zac Hadjineophytou</title>
+  <title>Contact - Zac Hadjineophytou</title>
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
   <link rel="stylesheet" type="text/css" href="contact.css" />
@@ -50,11 +50,45 @@
 
   <div class="content">
     <div class="formWrapper">
-      <form autocomplete="on">
+      <form class="form" action="" method="post" autocomplete="on">
+
         <div id="name">
-          <label><input/>First Name</label>
-          <label><input/>Last Name</label>
+          <div class="title nameTitle">
+            <label>Full Name *</label>
+          </div>
+          <div class="field nameField">
+            <label><input name="fname">First Name</label>
+          </div>
+          <div class="field nameField">
+            <label><input name="lname">Last Name</label>
+          </div>
         </div>
+
+        <div id="email">
+          <div class="title email">
+            <label>Email Address *</label>
+          </div>
+          <div class="field email">
+            <input name="email">
+          </div>
+        </div>
+
+        <div id="message">
+          <div class="title message">
+            <label>Message *</label>
+          </div>
+          <div class="field message" ng-app>
+            <textarea name="message" ng-model="limit" ng-trim="false" maxlength="150"></textarea>
+            <label>{{300 - limit.length}} characters left</label>
+          </div>
+        </div>
+
+        <div id="send">
+          <div class="button send">
+            <input type="submit" value="Send Message">
+          </div>
+        </div>
+
       </form>
     </div>
   </div>

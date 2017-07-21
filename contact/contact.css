@@ -9,18 +9,98 @@
 
 .formWrapper {
   margin: 0 auto;
-  max-width: 1020px;
+  max-width: 510px;
+}
+
+.form {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 7px;
+  color: rgba(26,26,26,.6);
+}
+
+.nameTitle {
+  margin-left: 2%;
+}
+
+.title label {
+  font: 16px 'Roboto', sans-serif;
 }
 
 #name {
+  display: inline-table;
+  width: 102%;
+  margin: 0 0 0 -2%;
+}
+
+.field {
   display: inline-block;
-  width: 48%;
-}
-
-#name label{
-  font: 13px 'Roboto', sans-serif;
-}
-
-#name input{
   width: 100%;
+  margin-bottom: 24px;
+}
+
+.nameField {
+  width: 48%;
+  margin-left: 2%;
+}
+
+.field label{
+  font: 13px 'Roboto', sans-serif;
+  color: rgba(26,26,26,.6);
+}
+
+.field input{
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #FAFAFA;
+  box-sizing: border-box;
+}
+
+.field input:focus{
+  background: #FFF;
+  outline: none;
+  transition: background .1s ease-in;
+}
+
+.field textarea{
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  margin: 6px 0 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #FAFAFA;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.field textarea:focus{
+  background: #FFF;
+  outline: none;
+  transition: background .1s ease-in;
+}
+
+.send input {
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  color: black;
+  border: 2px solid black;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.send input:hover {
+  color: white;
+  background: black;
+  transition: all .15s ease-out;
 }

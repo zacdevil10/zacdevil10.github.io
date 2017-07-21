@@ -1,0 +1,40 @@
+#latestPost {
+  height: auto;
+  max-height: 600px;
+  width: auto;
+  max-width: 100%;
+  padding: 180px 0 155px;
+}
+
+.viewLatestPost {
+  position: relative;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  max-width: 956px;
+}
+
+.viewLatestPost a {
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.viewLatestPost h1 {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-size: 68px;
+  line-height: 1em;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
