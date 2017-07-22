@@ -49,8 +49,26 @@
     </div>
   </div>
 
-  <div class="content">
-    <a>We can place some content here</a>
+  <div class="content" ng-app="appView">
+    <div class="appsWrapper" ng-controller="appController">
+      <div class="appsView" ng-repeat="app in apps">
+        <div id="column-1">
+          <h2>{{app.name}}</h2>
+        </div>
+        <div id="column-2">
+          <div id="descriptionView">
+            <p>{{app.desc}}</p>
+          </div>
+          <div id="appLinks">
+            <a href="{{app.playlink}}" target="_blank">Google Play</a>
+            <a href="{{app.gitlink}}" target="_blank">Source Code</a>
+          </div>
+        </div>
+        <div id="separator">
+          <hr>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="footer">

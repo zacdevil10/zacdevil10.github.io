@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #26262a;
+  min-width: 1020px;
 }
 
 #headerBackground {
