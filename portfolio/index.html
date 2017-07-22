@@ -53,16 +53,18 @@
     <div class="appsWrapper" ng-controller="appController">
       <div class="appsView" ng-repeat="app in apps">
         <div id="column-1">
-          <h2>{{app.name}}</h2>
+          <img src="{{app.img}}" style="max-width: 200px;">
         </div>
         <div id="column-2">
           <div id="descriptionView">
+            <h3>{{app.name}}</h3>
             <p>{{app.desc}}</p>
           </div>
-          <div id="appLinks">
-            <a href="{{app.playlink}}" target="_blank">Google Play</a>
-            <a href="{{app.gitlink}}" target="_blank">Source Code</a>
-          </div>
+
+        </div>
+        <div id="appLinks">
+          <a href="{{app.playlink}}" target="_blank">Google Play</a>
+          <a href="{{app.gitlink}}" target="_blank">Source Code</a>
         </div>
         <div id="separator">
           <hr>
