@@ -58,10 +58,10 @@
             <label>Full Name *</label>
           </div>
           <div class="field nameField">
-            <label><input name="fname">First Name</label>
+            <label><input name="fname" required>First Name</label>
           </div>
           <div class="field nameField">
-            <label><input name="lname">Last Name</label>
+            <label><input name="lname" required>Last Name</label>
           </div>
         </div>
 
@@ -70,7 +70,7 @@
             <label>Email Address *</label>
           </div>
           <div class="field email">
-            <input name="email">
+            <input name="email" required>
           </div>
         </div>
 
@@ -79,7 +79,7 @@
             <label>Message *</label>
           </div>
           <div class="field message" ng-app>
-            <textarea name="message" ng-model="limit" ng-trim="false" maxlength="300"></textarea>
+            <textarea name="message" ng-model="limit" ng-trim="false" maxlength="300" required></textarea>
             <label>{{300 - limit.length}} characters left</label>
           </div>
         </div>
