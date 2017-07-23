@@ -11,7 +11,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     },
     {
       'name': 'Connect',
-      'img': '../img/blueline.png',
+      'img': '../img/connect.png',
       'playlink': '',
       'gitlink': 'https://github.com/STUDIO-apps/Connect_Android',
       'website': '',
