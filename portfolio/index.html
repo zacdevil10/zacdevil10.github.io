@@ -54,7 +54,7 @@
 
     <div id="codeTemp">
       <div class="appsInfoPanel">
-        <h1>Apps</h1>
+        <h1>Portfolio</h1>
         <a href="https://play.google.com/store/apps/dev?id=9074979777321158995&hl=en" target="_blank">Google Play</a>
       </div>
     </div>
@@ -68,14 +68,15 @@
         </div>
         <div id="column-2">
           <div id="descriptionView">
-            <h3>{{app.name}}</h3>
+            <h3 style="color: {{app.color}};">{{app.name}}</h3>
             <p>{{app.desc}}</p>
           </div>
 
         </div>
         <div id="appLinks">
-          <a href="{{app.playlink}}" target="_blank">Google Play</a>
-          <a href="{{app.gitlink}}" target="_blank">Source Code</a>
+          <a href="{{app.website}}" ng-if="app.website" target="_blank">Website</a>
+          <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank">Google Play</a>
+          <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank">Source Code</a>
         </div>
         <div id="separator">
           <hr>
