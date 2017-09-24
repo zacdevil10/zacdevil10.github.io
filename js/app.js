@@ -7,7 +7,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'website': '',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
       'gitlink': 'https://github.com/STUDIO-apps/EasyBMI',
-      'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'desc': 'EasyBMI was created in 2014 and was my first android app. Its main purpose was to learn programming in Java using the Android SDK but i took this further by uploading it to the play store. The first iteration of this app was very simple with minimal features. As I further developed my skills as an Android developer I was able to follow the Android material design language (which was still very new at the time). ',
       'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
     },
     {
