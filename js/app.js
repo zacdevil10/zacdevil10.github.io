@@ -2,7 +2,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
   $scope.apps = [
     {
       'name': 'EasyBMI',
-      'img': 'img/easybmi.png',
+      'img': '../img/easybmi.png',
       'color': '#009688',
       'website': '',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
@@ -12,7 +12,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     },
     {
       'name': 'GeoShare',
-      'img': 'img/geoshare.png',
+      'img': '../img/geoshare.png',
       'color': '#4caf50',
       'website': 'https://geoshare.appsbystudio.co.uk',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.geoshare&hl=en',
@@ -22,7 +22,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     },
     {
       'name': 'Connect',
-      'img': 'img/connect.png',
+      'img': '../img/connect.png',
       'color': '#009688',
       'website': '',
       'playlink': '',
@@ -32,7 +32,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     },
     {
       'name': 'Message+',
-      'img': 'img/message.png',
+      'img': '../img/message.png',
       'color': '#9c27b0',
       'website': '',
       'playlink': '',
