@@ -17,27 +17,27 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'website': 'https://geoshare.appsbystudio.co.uk',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.geoshare&hl=en',
       'gitlink': 'https://github.com/STUDIO-apps/GeoShare_Android',
-      'desc': 'GeoShare is a real-time location sharing app.',
-      'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
+      'desc': 'Now out on Google Play and the web, GeoShare is a location sharing app. More features are planned for the future including Groups, Messaging and Android Wear support.',
+      'tags': [{"tag":'android', "tag":'Kotlin', "tag":'xml', "tag":'android-studio'}]
     },
     {
-      'name': 'Connect',
+      'name': 'Connect [WIP]',
       'img': '../img/connect.png',
       'color': '#009688',
       'website': '',
       'playlink': '',
       'gitlink': 'https://github.com/STUDIO-apps/Connect_Android',
-      'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'desc': 'Currently in the early stages of development, Connect will allow you to make and receive calls from your PC using your computers audio devices, sync and send text messages and get all notifications on your computer.',
       'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
     },
     {
-      'name': 'Message+',
+      'name': 'Message+ [WIP]',
       'img': '../img/message.png',
       'color': '#9c27b0',
       'website': '',
       'playlink': '',
       'gitlink': 'https://github.com/zacdevil10/Message-',
-      'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'desc': 'Currently in development, Message+ will be a more feature rich messaging app with features such as a backup and restore option.',
       'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
     }
   ];
