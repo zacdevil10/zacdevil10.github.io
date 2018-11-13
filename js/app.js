@@ -14,10 +14,10 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'name': 'GeoShare',
       'img': '../img/geoshare.png',
       'color': '#4caf50',
-      'website': 'https://geoshare.appsbystudio.co.uk',
+      'website': 'https://studio-apps.github.io/GeoShare',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.geoshare&hl=en',
       'gitlink': 'https://github.com/STUDIO-apps/GeoShare_Android',
-      'desc': 'Now out on Google Play and the web, GeoShare is a location sharing app. More features are planned for the future including Groups, Messaging and Android Wear support.',
+      'desc': 'Now out on Android and the web, GeoShare is a location sharing app. More features are planned for the future including Groups, Messaging and Android Wear support.',
       'tags': [{"tag":'android', "tag":'Kotlin', "tag":'xml', "tag":'android-studio'}]
     },
     {
