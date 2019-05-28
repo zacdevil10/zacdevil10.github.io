@@ -1,16 +1,6 @@
 angular.module('appView', []).controller('appController', function ($scope) {
   $scope.apps = [
     {
-      'name': 'EasyBMI',
-      'img': '../img/easybmi.png',
-      'color': '#009688',
-      'website': '',
-      'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
-      'gitlink': 'https://github.com/STUDIO-apps/EasyBMI',
-      'desc': 'EasyBMI is a simple to use BMI calculator.',
-      'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
-    },
-    {
       'name': 'GeoShare',
       'img': '../img/geoshare.png',
       'color': '#4caf50',
@@ -18,7 +8,27 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.geoshare&hl=en',
       'gitlink': 'https://github.com/STUDIO-apps/GeoShare_Android',
       'desc': 'Now out on Android and the web, GeoShare is a location sharing app. More features are planned for the future including Groups, Messaging and Android Wear support.',
-      'tags': [{"tag":'android', "tag":'Kotlin', "tag":'xml', "tag":'android-studio'}]
+      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
+    },
+    {
+      'name': 'EasyBMI',
+      'img': '../img/easybmi.png',
+      'color': '#009688',
+      'website': '',
+      'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
+      'gitlink': 'https://github.com/STUDIO-apps/EasyBMI',
+      'desc': 'EasyBMI is a simple to use BMI calculator.',
+      'tags': [{"tag":'android', "tag":'java'}]
+    },
+    {
+      'name': 'Leap Motion Touch Screen [WIP]',
+      'img': '../img/leaptouch.png',
+      'color': '#616161',
+      'website': '',
+      'playlink': '',
+      'gitlink': 'https://github.com/zacdevil10/LeapMotionTouchScreen',
+      'desc': 'Control your mouse with the Leap Motion.',
+      'tags': [{"tag":'java', "tag":'javafx', "tag":'leap-motion'}]
     },
     {
       'name': 'Connect [WIP]',
@@ -28,7 +38,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'playlink': '',
       'gitlink': 'https://github.com/STUDIO-apps/Connect_Android',
       'desc': 'Currently in the early stages of development, Connect will allow you to make and receive calls from your PC using your computers audio devices, sync and send text messages and get all notifications on your computer.',
-      'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
+      'tags': [{"tag":'android', "tag":'java'}]
     },
     {
       'name': 'Message+ [WIP]',
@@ -38,7 +48,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'playlink': '',
       'gitlink': 'https://github.com/zacdevil10/Message-',
       'desc': 'Currently in development, Message+ will be a more feature rich messaging app with features such as a backup and restore option.',
-      'tags': [{"tag":'android', "tag":'Java', "tag":'android-studio'}]
+      'tags': [{"tag":'android', "tag":'java'}]
     }
   ];
 });
