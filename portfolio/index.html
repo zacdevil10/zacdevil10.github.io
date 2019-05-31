@@ -49,7 +49,7 @@
     </div>
 
     <div id="codeTemp">
-      <div class="appsInfoPanel">
+      <div class="infoPanel">
         <h1>Portfolio</h1>
         <a href="https://play.google.com/store/apps/dev?id=9074979777321158995&hl=en" target="_blank">Google Play</a>
       </div>
@@ -70,9 +70,9 @@
 
         </div>
         <div id="appLinks">
-          <a href="{{app.website}}" ng-if="app.website" target="_blank">Website</a>
-          <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank">Google Play</a>
-          <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank">Source Code</a>
+          <a href="{{app.website}}" ng-if="app.website" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Website</a>
+          <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Google Play</a>
+          <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Source Code</a>
         </div>
         <div id="separator">
           <hr>

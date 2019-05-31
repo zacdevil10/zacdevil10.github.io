@@ -1,6 +1,8 @@
 angular.module('appView', []).controller('appController', function ($scope) {
+
   $scope.apps = [
     {
+      'id': 'geoshare',
       'name': 'GeoShare',
       'img': '../img/geoshare.png',
       'color': '#4caf50',
@@ -11,26 +13,26 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
     },
     {
+      'id': 'easybmi',
       'name': 'EasyBMI',
       'img': '../img/easybmi.png',
       'color': '#009688',
-      'website': '',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
       'gitlink': 'https://github.com/STUDIO-apps/EasyBMI',
       'desc': 'EasyBMI is a simple to use BMI calculator.',
       'tags': [{"tag":'android', "tag":'java'}]
     },
     {
+      'id': 'leaptouch',
       'name': 'Leap Motion Touch Screen [WIP]',
       'img': '../img/leaptouch.png',
       'color': '#616161',
-      'website': '',
-      'playlink': '',
       'gitlink': 'https://github.com/zacdevil10/LeapMotionTouchScreen',
       'desc': 'Control your mouse with the Leap Motion.',
       'tags': [{"tag":'java', "tag":'javafx', "tag":'leap-motion'}]
     },
     {
+      'id': 'connect',
       'name': 'Connect [WIP]',
       'img': '../img/connect.png',
       'color': '#009688',
@@ -41,10 +43,10 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'java'}]
     },
     {
+      'id': 'messageplus',
       'name': 'Message+ [WIP]',
       'img': '../img/message.png',
       'color': '#9c27b0',
-      'website': '',
       'playlink': '',
       'gitlink': 'https://github.com/zacdevil10/Message-',
       'desc': 'Currently in development, Message+ will be a more feature rich messaging app with features such as a backup and restore option.',

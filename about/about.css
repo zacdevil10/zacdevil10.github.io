@@ -15,7 +15,7 @@
 }
 
 #column-1 h2 {
-  font: 22px 'Roboto', sans-serif;
+  font-size: 22px;
   color: #4a4a4a;
   text-transform: uppercase;
   padding-top: 17px;
@@ -30,7 +30,7 @@
 }
 
 #column-2 h3 {
-  font: 16px 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   color: #4a4a4a;
@@ -38,7 +38,7 @@
 }
 
 #column-2 h3 a {
-  font: 16px 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   color: #4a4a4a;
@@ -47,12 +47,7 @@
   border-bottom: 1px solid rgba(74,74,74,.2);
 }
 
-#column-2 ul {
-  font-family: 'Roboto', sans-serif;
-}
-
 #column-2 li {
-  font-family: 'Roboto', sans-serif;
   color: rgba(26,26,26,.6);
   line-height: 1.8;
 }
@@ -62,7 +57,6 @@
 }
 
 #jobView p {
-  font-family: 'Roboto', sans-serif;
   color: rgba(26,26,26,.6);
 }
 
