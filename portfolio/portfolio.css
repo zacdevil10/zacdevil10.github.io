@@ -61,6 +61,8 @@
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 17px;
+
+  transition: all .15s ease-in-out;
 }
 
 #appLinks a:hover {
@@ -91,9 +93,7 @@
 
 #separator hr {
   margin: 32px 0;
-  border-width: 0;
   border-style: none;
-  color: rgba(26, 26, 26, .15);
   background-color: rgba(26,26,26,.15);
   height: 1px;
 }
