@@ -1,3 +1,8 @@
+.aboutBackground {
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+
 .technologies {
   margin: 0 auto;
   max-width: 1020px;

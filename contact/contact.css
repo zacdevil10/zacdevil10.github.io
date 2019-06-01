@@ -1,9 +1,5 @@
-#contactBackground {
+.contactBackground {
   background-image: url(../img/contact.png);
-  height: auto;
-  max-height: 740px;
-  width: auto;
-  max-width: 100%;
   background-size: cover;
 }
 
