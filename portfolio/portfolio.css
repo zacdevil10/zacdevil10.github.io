@@ -9,8 +9,6 @@
 }
 
 #column-1 {
-  display: inline-block;
-  width: 33.3333%;
   float: left;
 }
 
@@ -25,17 +23,16 @@
 }
 
 #column-1 img {
+  width: 10.417vw;
   max-width: 200px;
-  padding-top: 17px;
+  max-height: 200px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 17px;
 }
 
 #column-2 {
-  display: inline-block;
-  width: 66.6667%;
-  min-height: 250px;
+  min-height: 18.519vh;
+  min-width: 50%;
   position: relative;
 }
 
@@ -71,7 +68,19 @@
   margin-left: 17px;
   margin-bottom: 17px;
   margin-top: 17px;
-  float: right;
+}
+
+@media only screen and (max-width: 580px) {
+  #appLinks {
+    display: inline-grid;
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  #appLinks {
+    float: right;
+  }
 }
 
 #appLinks li {
