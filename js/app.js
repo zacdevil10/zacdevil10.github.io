@@ -2,6 +2,16 @@ angular.module('appView', []).controller('appController', function ($scope) {
 
   $scope.apps = [
     {
+      'id': 'spacex-launch-tracker',
+      'name': 'SpaceX Launch Tracker',
+      'img': '../img/spacex.png',
+      'color': '#212121',
+      'website': 'https://spacex.zac-h.co.uk',
+      'gitlink': 'https://github.com/zacdevil10/SpaceX-Launch-Tracker',
+      'desc': 'An unofficial SpaceX app powered by the r/SpaceX API offering a comprehensive view of the latest SpaceX data.',
+      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
+    },
+    {
       'id': 'geoshare',
       'name': 'GeoShare',
       'img': '../img/geoshare.png',
