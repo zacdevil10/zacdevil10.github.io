@@ -7,7 +7,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'img': '../img/spacex.png',
       'color': '#212121',
       'website': 'https://spacex.zac-h.co.uk',
-      'playlink': 'https://play.google.com/apps/testing/uk.co.zac_h.spacex',
+      'playlink': 'https://play.google.com/store/apps/details?id=uk.co.zac_h.spacex',
       'gitlink': 'https://github.com/zacdevil10/SpaceX-Launch-Tracker',
       'desc': 'An unofficial SpaceX app powered by the r/SpaceX API offering a comprehensive view of the latest SpaceX data.',
       'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
