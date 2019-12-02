@@ -14,7 +14,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     },
     {
       'id': 'mediarecyclerview',
-      'name': 'MediaRecyclerView',
+      'name': 'Media Recycler View',
       'img': '../img/library.png',
       'color': '#607D8B',
       'gitlink': 'https://github.com/zacdevil10/MediaRecyclerView',
