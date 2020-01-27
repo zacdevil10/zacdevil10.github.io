@@ -22,6 +22,15 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml', "tag":'library'}]
     },
     {
+      'id': 'magic-squares',
+      'name': 'Magic Squares',
+      'img': '../img/magicsquares.png',
+      'color': '#7CB342',
+      'gitlink': 'https://github.com/zacdevil10/MagicSquares',
+      'desc': 'A simple magic squares solver.',
+      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
+    },
+    {
       'id': 'geoshare',
       'name': 'GeoShare',
       'img': '../img/geoshare.png',
