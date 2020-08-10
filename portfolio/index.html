@@ -19,6 +19,15 @@
     $(function() {
       $("#footer").load("../components/footer.html");
     });
+
+    $(window).scroll(function() {
+      var scrollTop = $(this).scrollTop();
+
+      var elementHeight = $('.navBar').height() * 2;
+      var alpha = 1 - (elementHeight - scrollTop) / elementHeight
+
+      $('.navBar').css('background-color', 'rgba(38, 38, 42, ' + alpha + ')');
+    });
   </script>
 
   <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
@@ -26,8 +35,7 @@
 
 <body>
 
-<div class="site">
-  <div class="headerWrapper appsBackground">
+  <div class="navBar">
     <div class="logo-wrapper">
       <a href="/"><h1>Zac Hadjineophytou</h1></a>
     </div>
@@ -37,46 +45,50 @@
         <li class="apps active"><a>Portfolio</a></li>
         <!--li class="blog"><a href="../blog">Blog</a></li!-->
         <li class="about"><a href="../about">About</a></li>
-        <li class="contact"><a href="../contact">Contact</a></li>
+        <!-- <li class="contact"><a href="../contact">Contact</a></li> -->
       </ul>
-    </div>
-
-    <div class="headingWrapper">
-      <h1>Portfolio</h1>
-      <a href="https://github.com/zacdevil10" target="_blank">Github</a>
-      <a href="https://play.google.com/store/apps/dev?id=9074979777321158995&hl=en" target="_blank">Google Play</a>
     </div>
   </div>
 
-  <div class="content" ng-app="appView">
-    <div class="appsWrapper" ng-controller="appController">
-      <div class="appsView" ng-repeat="app in apps">
-        <div id="column-1">
-          <img src="{{app.img}}">
-        </div>
-        <div id="column-2">
-          <div id="descriptionView">
-            <h3 style="color: {{app.color}};">{{app.name}}</h3>
-            <p>{{app.desc}}</p>
-          </div>
+  <div class="site">
 
-        </div>
-        <div id="appLinks">
-          <a href="{{app.website}}" ng-if="app.website" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Website</a>
-          <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Google Play</a>
-          <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Source Code</a>
-        </div>
-        <div id="separator">
-          <hr>
+    <div class="headerWrapper appsBackground">
+      <div class="headingWrapper">
+        <h1>Portfolio</h1>
+        <a href="https://github.com/zacdevil10" target="_blank">Github</a>
+        <a href="https://play.google.com/store/apps/dev?id=9074979777321158995&hl=en" target="_blank">Google Play</a>
+      </div>
+    </div>
+
+    <div class="content" ng-app="appView">
+      <div class="appsWrapper" ng-controller="appController">
+        <div class="appsView" ng-repeat="app in apps">
+          <div id="column-1">
+            <img src="{{app.img}}">
+          </div>
+          <div id="column-2">
+            <div id="descriptionView">
+              <h3 style="color: {{app.color}};">{{app.name}}</h3>
+              <p>{{app.desc}}</p>
+            </div>
+
+          </div>
+          <div id="appLinks">
+            <a href="{{app.website}}" ng-if="app.website" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Website</a>
+            <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Google Play</a>
+            <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Source Code</a>
+          </div>
+          <div id="separator">
+            <hr>
+          </div>
         </div>
       </div>
     </div>
+
+    <div id="footer"></div>
   </div>
 
-  <div id="footer"></div>
-</div>
-
-<script src="../js/app.js"></script>
+  <script src="../js/app.js"></script>
 </body>
 
 </html>

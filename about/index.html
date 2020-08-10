@@ -19,6 +19,15 @@
     $(function() {
       $("#footer").load("../components/footer.html");
     });
+
+    $(window).scroll(function() {
+      var scrollTop = $(this).scrollTop();
+
+      var elementHeight = $('.navBar').height() * 2;
+      var alpha = 1 - (elementHeight - scrollTop) / elementHeight
+
+      $('.navBar').css('background-color', 'rgba(38, 38, 42, ' + alpha + ')');
+    });
   </script>
 
   <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
@@ -26,23 +35,23 @@
 
 <body>
 
+  <div class="navBar">
+    <div class="logo-wrapper">
+      <a href="/"><h1>Zac Hadjineophytou</h1></a>
+    </div>
+    <div class="navWrapper">
+      <ul>
+        <li class="home"><a href="../">Home</a></li>
+        <li class="apps"><a href="../portfolio">Portfolio</a></li>
+        <!--li class="blog"><a href="../blog">Blog</a></li!-->
+        <li class="about active"><a>About</a></li>
+        <!-- <li class="contact"><a href="../contact">Contact</a></li> -->
+      </ul>
+    </div>
+  </div>
+
 <div class="site" ng-app="jobsView">
   <div class="headerWrapper aboutBackground">
-    <div class="header">
-      <div class="logo-wrapper">
-        <a href="/"><h1>Zac Hadjineophytou</h1></a>
-      </div>
-      <div class="navWrapper">
-        <ul>
-          <li class="home"><a href="../">Home</a></li>
-          <li class="apps"><a href="../portfolio">Portfolio</a></li>
-          <!--li class="blog"><a href="../blog">Blog</a></li!-->
-          <li class="about active"><a>About</a></li>
-          <li class="contact"><a href="../contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-
     <div class="headingWrapper">
       <h1>About me</h1>
     </div>
