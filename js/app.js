@@ -1,5 +1,9 @@
 angular.module('appView', []).controller('appController', function ($scope) {
 
+  $scope.tags = [
+    "android", "kotlin", "java", "xml", "javafx", "leap-motion"
+  ]
+
   $scope.apps = [
     {
       'id': 'spacex-launch-tracker',

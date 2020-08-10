@@ -3,16 +3,41 @@
   background-size: cover;
 }
 
+.tag-container {
+  display: flex;
+  max-width: 1020px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.tag-container h3 {
+  margin: auto;
+}
+
+.tag-container div {
+  margin: 8px auto;
+}
+
+.tag-container button {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 8px 20px;
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 .appsWrapper {
   margin: 0 auto;
   max-width: 1020px;
 }
 
-#column-1 {
+.column-1 {
   float: left;
 }
 
-#column-1 h2 {
+.column-1 h2 {
   color: #4a4a4a;
   text-transform: uppercase;
   padding-top: 17px;
@@ -22,7 +47,7 @@
   margin: 0;
 }
 
-#column-1 img {
+.column-1 img {
   width: 10.417vw;
   max-width: 200px;
   max-height: 200px;
@@ -30,13 +55,13 @@
   padding-right: 16px;
 }
 
-#column-2 {
+.column-2 {
   min-height: 18.519vh;
   min-width: 50%;
   position: relative;
 }
 
-#column-2 h3 {
+.column-2 h3 {
   font-weight: 600;
   text-transform: uppercase;
   color: #4a4a4a;
@@ -44,50 +69,50 @@
   margin-top: 0px;
 }
 
-#appLinks a:hover {
+.appLinks a:hover {
   color: white;
   transition: all .15s ease-in-out;
 }
 
-#column-2 li {
+.column-2 li {
   color: rgba(26,26,26,.6);
   line-height: 1.8;
 }
 
-#descriptionView {
+.descriptionView {
   padding: 17px;
 }
 
-#descriptionView p {
+.descriptionView p {
   color: rgba(26,26,26,.6);
   margin-top: 0;
   margin-bottom: 24px;
 }
 
-#appLinks {
+.appLinks {
   margin-left: 17px;
   margin-bottom: 17px;
   margin-top: 17px;
 }
 
 @media only screen and (max-width: 580px) {
-  #appLinks {
+  .appLinks {
     display: inline-grid;
     float: none;
   }
 }
 
 @media only screen and (min-width: 580px) {
-  #appLinks {
+  .appLinks {
     float: right;
   }
 }
 
-#appLinks li {
+.appLinks li {
   text-decoration: none;
 }
 
-#appLinks a {
+.appLinks a {
   min-width: 170px;
   padding: 15px 20px;
   letter-spacing: 2px;
@@ -100,7 +125,7 @@
   transition: all .15s ease-in-out;
 }
 
-#separator hr {
+.separator hr {
   margin: 52px 0;
   border-style: none;
   background-color: rgba(26,26,26,.15);

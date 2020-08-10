@@ -49,24 +49,30 @@
   </div>
 
   <div class="content" ng-app="appView">
+    <div class="tag-container" ng-controller="appController" >
+      <h3>Filter: </h3>
+      <div ng-repeat="tag in tags track by $index">
+        <button>{{tag}}</button>
+      </div>
+    </div>
     <div class="appsWrapper" ng-controller="appController">
       <div class="appsView" ng-repeat="app in apps">
-        <div id="column-1">
+        <div class="column-1">
           <img src="{{app.img}}">
         </div>
-        <div id="column-2">
-          <div id="descriptionView">
+        <div class="column-2">
+          <div class="descriptionView">
             <h3 style="color: {{app.color}};">{{app.name}}</h3>
             <p>{{app.desc}}</p>
           </div>
 
         </div>
-        <div id="appLinks">
+        <div class="appLinks">
           <a href="{{app.website}}" ng-if="app.website" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Website</a>
           <a href="{{app.playlink}}" ng-if="app.playlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Google Play</a>
           <a href="{{app.gitlink}}" ng-if="app.gitlink" target="_blank" ng-style="{background: hover==true ? app.color : 'transparent'}" ng-mouseenter="hover=true" ng-mouseleave="hover=false">Source Code</a>
         </div>
-        <div id="separator">
+        <div class="separator">
           <hr>
         </div>
       </div>
