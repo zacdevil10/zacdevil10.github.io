@@ -31,27 +31,6 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
     },
     {
-      'id': 'geoshare',
-      'name': 'GeoShare',
-      'img': '../img/geoshare.png',
-      'color': '#4caf50',
-      'website': 'https://studio-apps.github.io/GeoShare',
-      'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.geoshare&hl=en',
-      'gitlink': 'https://github.com/STUDIO-apps/GeoShare_Android',
-      'desc': 'Now out on Android and the web, GeoShare is a location sharing app. More features are planned for the future including Groups, Messaging and Android Wear support.',
-      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
-    },
-    {
-      'id': 'easybmi',
-      'name': 'EasyBMI',
-      'img': '../img/easybmi.png',
-      'color': '#009688',
-      'playlink': 'https://play.google.com/store/apps/details?id=uk.co.appsbystudio.easybmi',
-      'gitlink': 'https://github.com/STUDIO-apps/EasyBMI',
-      'desc': 'EasyBMI is a simple to use BMI calculator.',
-      'tags': [{"tag":'android', "tag":'java'}]
-    },
-    {
       'id': 'leaptouch',
       'name': 'Leap Motion Touch Screen [WIP]',
       'img': '../img/leaptouch.png',
@@ -72,8 +51,27 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'java'}]
     },
     {
+      'id': 'geoshare',
+      'name': 'GeoShare [ARCHIVE]',
+      'img': '../img/geoshare.png',
+      'color': '#4caf50',
+      'website': 'https://github.com/zacdevil10/GeoShare',
+      'gitlink': 'https://github.com/zacdevil10/GeoShare_Android',
+      'desc': 'GeoShare is a location sharing app.',
+      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
+    },
+    {
+      'id': 'easybmi',
+      'name': 'EasyBMI [ARCHIVE]',
+      'img': '../img/easybmi.png',
+      'color': '#009688',
+      'gitlink': 'https://github.com/zacdevil10/EasyBMI',
+      'desc': 'EasyBMI is a simple to use BMI calculator.',
+      'tags': [{"tag":'android', "tag":'java'}]
+    },
+    {
       'id': 'messageplus',
-      'name': 'Message+ [WIP]',
+      'name': 'Message+ [ARCHIVE]',
       'img': '../img/message.png',
       'color': '#9c27b0',
       'playlink': '',
