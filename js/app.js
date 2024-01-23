@@ -2,8 +2,8 @@ angular.module('appView', []).controller('appController', function ($scope) {
 
   $scope.apps = [
     {
-      'id': 'spacex-launch-tracker',
-      'name': 'SpaceX Launch Tracker',
+      'id': 'spacex-launch-tracker-android',
+      'name': 'SpaceX - Launch Tracker (Android)',
       'img': '../img/spacex.png',
       'color': '#212121',
       'website': 'https://spacex.zac-h.co.uk/faq',
@@ -13,13 +13,13 @@ angular.module('appView', []).controller('appController', function ($scope) {
       'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
     },
     {
-      'id': 'mediarecyclerview',
-      'name': 'Media Recycler View',
-      'img': '../img/library.png',
-      'color': '#607D8B',
-      'gitlink': 'https://github.com/zacdevil10/MediaRecyclerView',
-      'desc': 'A dynamic image grid for displaying upto 4 images.',
-      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml', "tag":'library'}]
+      'id': 'spacex-launch-tracker-ios',
+      'name': 'SpaceX - Launch Tracker (iOS)',
+      'img': '../img/spacex.png',
+      'color': '#212121',
+      'gitlink': 'https://github.com/zacdevil10/SpaceX-Launch-Tracker-iOS',
+      'desc': 'An unofficial SpaceX app powered by the r/SpaceX API offering a comprehensive view of the latest SpaceX data.',
+      'tags': [{"tag":'android', "tag":'kotlin', "tag":'xml'}]
     },
     {
       'id': 'geoshare',
