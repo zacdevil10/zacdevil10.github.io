@@ -4,7 +4,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     {
       'id': 'spacex-launch-tracker-android',
       'name': 'SpaceX - Launch Tracker (Android)',
-      'img': '../img/spacex.png',
+      'img': 'https://raw.githubusercontent.com/zacdevil10/SpaceX-Launch-Tracker/master/core/ui/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
       'color': '#212121',
       'website': 'https://spacex.zac-h.co.uk/faq',
       'playlink': 'https://play.google.com/store/apps/details?id=uk.co.zac_h.spacex',
@@ -15,7 +15,7 @@ angular.module('appView', []).controller('appController', function ($scope) {
     {
       'id': 'spacex-launch-tracker-ios',
       'name': 'SpaceX - Launch Tracker (iOS)',
-      'img': '../img/spacex.png',
+      'img': 'https://raw.githubusercontent.com/zacdevil10/SpaceX-Launch-Tracker/master/core/ui/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
       'color': '#212121',
       'gitlink': 'https://github.com/zacdevil10/SpaceX-Launch-Tracker-iOS',
       'desc': 'An unofficial SpaceX app powered by the r/SpaceX API offering a comprehensive view of the latest SpaceX data.',
